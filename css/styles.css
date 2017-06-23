@@ -242,8 +242,25 @@ figure {
     }
   }
   @media (min-width:992px){
-    main > img{
-      width:50%;
+
+    .movie:first-child{
+      width: 100%
+    }
+    .movie {
+      width:33.3%;
+      float: left;
+      overflow: hidden;
+    }
+  .movie-overview{
+    display: none;
+  }
+  article:nth-child(1) > div > p {
+    display: block;
+  }
+  footer{
+    clear:both;
+
+  }
 
 }
 
