@@ -216,6 +216,36 @@ figure {
       bottom: 25%;
       width: 65px;
       display: block;
-
     }
+    .movie-overview{
+      display: inline;
+    }
+    main{
+       margin-left:10%;
+    }
+    .footer-nav{
+      width: 50%;
+      display:inline-block;
+      float:left;
+      background-color: #333333;
+      color: white;
+    }
+    .about{
+      width:50%;
+      display: inline-block;
+      float: right;
+      height:52px;
+    }
+    .about p{
+      position: relative;
+      bottom:10px;
+    }
+  }
+  @media (min-width:992px){
+    main > img{
+      width:50%;
+
 }
+
+
+  }
