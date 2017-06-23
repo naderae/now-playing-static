@@ -202,12 +202,20 @@ figure {
       left:0;
       width: 10%;
       height: 100%;
-
-
+      padding-top: 10%;
+      z-index: 1;
     }
     .site-nav-item{
       float:none;
       width:100%;
     }
+    .site-logo-image{
+      float: left;
+      position: absolute;
+      right: 33%;
+      bottom: 25%;
+      width: 65px;
+      display: block;
 
+    }
 }
